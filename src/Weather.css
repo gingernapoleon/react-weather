@@ -3,86 +3,65 @@
   margin: 30px auto;
 }
 
-.search-bar {
-  margin: 5px;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.container {
-  display: block;
-  width: 100%;
-}
 .weather-app {
-  display: block;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 4px outset rgba(74, 74, 82, 0.6);
+  border-radius: 10px;
 }
 
-.Weather .overview {
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.overview {
   margin-bottom: 20px;
 }
 
-.Weather .weather-temperature img {
+.weather-temperature img {
   margin-right: 5px;
   height: 64px;
   width: 64px;
 }
 
-.Weather .weather-temperature strong {
+.weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
 
-.Weather .weather-temperature .units {
+.weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -32px;
 }
 
-.Weather .weather-temperature .active {
+.weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
-}
-
-.Weather .weather-temperature .active:hover {
   text-decoration: none;
 }
 
-.Weather .weather-forecast {
-  margin-top: 10px;
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 
-.Weather .weather-forecast h3 {
-  color: rgb(186, 186, 186);
-  font-size: 14px;
-  font-weight: 400;
+.weather-forecast {
+  margin-top: 20px;
   text-align: center;
-  height: 15px;
-  line-height: 15px;
-  padding-top: 7px;
+  color: #000;
 }
 
-.Weather .weather-forecast img {
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
 }
 
-.Weather .weather-forecast-temperature {
-  text-align: center;
-  color: rgb(135, 135, 135);
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature {
   font-size: 13px;
-  font-weight: 400;
-  height: auto;
-  line-height: 15px;
-  white-space: nowrap;
 }
