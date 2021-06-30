@@ -13,9 +13,9 @@ export default function Weather() {
   };
 
   return (
-<div class="container">
-    <div class="weather-app-wrapper">
-    <div class="weather-app">
+<div className="container">
+    <div className="weather-app-wrapper">
+    <div className="weather-app">
 
 <div className="row">
           <div className="row justify-content-end">
@@ -41,28 +41,28 @@ export default function Weather() {
           </div>
         </div>
 
-      <div class="overview">
+      <div className="overview">
     <h1 id="city">{weatherData.city}</h1>
     <ul>
       <li>Last updated at <span id="date">{weatherData.date}</span></li>
       <li id="description">{weatherData.description}</li>
     </ul>
   </div>
-    <div class="row">
-      <div class="col-6">
-        <div class="clearfix weather-temperature">
+    <div className="row">
+      <div className="col-6">
+        <div className="clearfix weather-temperature">
         <img 
         src={weatherData.imgUrl}
         alt="Clear"
-        class="float-left"
+        className="float-left"
         id="icon" 
         />
-        <div class="float-left">
-<strong id="temperature">{weatherData.temperature}</strong><span class="units">°C/°F</span>
+        <div className="float-left">
+<strong id="temperature">{weatherData.temperature}</strong><span className="units">°C/°F</span>
       </div>
       </div>
     </div>
-      <div class="col-6">
+      <div className="col-6">
         <ul>
           <li>
             Humidity: <span id="humidity">{weatherData.humidity}</span> %
@@ -73,7 +73,7 @@ export default function Weather() {
         </ul>
       </div>
     </div>
-    <div class="weather-forecast" id="forecast"></div>
+    <div className="weather-forecast" id="forecast"></div>
   </div>
   <small>
     <a href="https://github.com/gingernapoleon/react-weather" target="_blank">Open-source code</a>, by Ginger
