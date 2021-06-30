@@ -21,12 +21,6 @@ let weatherData = {
    q=New York&${apiKey}&units=metric`;     
    axios.get(apiUrl).then(handleResponse);
 
-   return(<h1>Hello from weather</h1> )
-
-
-
-
-
   return (
 <div className="container">
     <div className="weather-app-wrapper">
