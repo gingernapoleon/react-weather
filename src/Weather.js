@@ -76,7 +76,7 @@ export default function Weather() {
     <div className="weather-forecast" id="forecast"></div>
   </div>
   <small>
-    <a href="https://github.com/gingernapoleon/react-weather" target="_blank">Open-source code</a>, by Ginger
+    <a href="https://github.com/gingernapoleon/react-weather" target="_blank" rel="noreferrer">Open-source code</a>, by Ginger
     Napoleon
   </small>
   </div>
