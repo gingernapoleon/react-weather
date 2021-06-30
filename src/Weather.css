@@ -1,10 +1,22 @@
 .App {
-  display: block;
-  justify-content: center;
-  align-items: stretch;
+  max-width: 600px;
+  margin: 30px auto;
 }
-.Weather {
+
+.search-bar {
+  margin: 5px;
+  padding: 10px;
   display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  display: block;
+  width: 100%;
+}
+.weather-app {
+  display: block;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
   padding: 20px;
